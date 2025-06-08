@@ -1,18 +1,4 @@
 def perform_operation(num1: float, num2: float, operation: str):
-    """
-    Performs basic arithmetic operations based on the given numbers and operation.
-
-    Args:
-        num1 (float): The first number.
-        num2 (float): The second number.
-        operation (str): The arithmetic operation to perform.
-                         Accepted values are 'add', 'subtract', 'multiply', 'divide'.
-
-    Returns:
-        float or str: The result of the operation. Returns a string message
-                      "Error: Cannot divide by zero." if division by zero is attempted.
-                      Returns None for an invalid operation.
-    """
     if operation == 'add':
         return num1 + num2
     elif operation == 'subtract':
